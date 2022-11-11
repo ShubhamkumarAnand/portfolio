@@ -23,21 +23,21 @@ function Skills() {
         </div>
       </section>
       <section className="container mx-24 ">
-        <ul className="container my-12 mx-12 flex space-x-12">
+        <ul className="container my-8 mx-12 flex space-x-12">
           <li>Item 1</li>
           <li>Item 2</li>
           <li>Item 3</li>
           <li>Item 4</li>
         </ul>
         <br />
-        <ul className="container my-12 mx-12 flex space-x-12">
+        <ul className="container my-8 mx-12 flex space-x-12">
           <li>Item 1</li>
           <li>Item 2</li>
           <li>Item 3</li>
           <li>Item 4</li>
         </ul>
         <br />
-        <ul className="container my-12 mx-12 flex space-x-12">
+        <ul className="container my-8 mx-12 flex space-x-12">
           <li>Item 1</li>
           <li>Item 2</li>
           <li>Item 3</li>

@@ -20,7 +20,7 @@ function About() {
           </button>
         </section>
         <br />
-        <button className="button rounded-3xl bg-red-700 p-4 text-2xl text-white">
+        <button className=" button rounded-3xl bg-red-700 p-4 text-3xl font-semibold text-white shadow-xl">
           Resume
         </button>
       </section>
@@ -32,12 +32,11 @@ function About() {
           width="385"
           height="385"
         />
-        <ul className=" container mx-auto my-16 flex space-x-6 font-semibold">
+        <ul className="container mx-16 my-16 flex items-center space-x-6 font-bold">
           <li>LeaderShip Skills</li>
           <li>Problem Solving</li>
           <li>Communication Skills</li>
           <li>Learning</li>
-          <li>Time Management</li>
         </ul>
       </section>
     </div>
