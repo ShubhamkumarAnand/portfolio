@@ -12,27 +12,31 @@ function About() {
           programming since the Freshman year of my University.
         </p>
         <section className="container flex space-x-6">
-          <button className="button mx-4">Github</button>
-          <button className="button mx-4">LinkedIN</button>
+          <button className="button rounded-xl bg-white p-2 text-black">
+            Github
+          </button>
+          <button className="button mx-2 rounded-xl bg-blue-500 p-2 text-white">
+            LinkedIN
+          </button>
         </section>
         <br />
-        <button className="button m-4 my-10 rounded-full bg-red-700 p-6 text-3xl text-white">
+        <button className="button rounded-3xl bg-red-700 p-4 text-2xl text-white">
           Resume
         </button>
       </section>
-      <section className="container mx-auto w-1/2">
+      <section className="container mx-auto w-1/2 ">
         <Image
           alt="profile picture"
           src={profileImage}
-          className="rounded-full"
+          className="mx-auto my-12 items-end rounded-full bg-yellow-500 shadow-xl"
           width="385"
           height="385"
         />
-        <ul className=" container mx-auto my-12 flex space-x-4">
+        <ul className=" container mx-auto my-16 flex space-x-6 font-semibold">
           <li>LeaderShip Skills</li>
           <li>Problem Solving</li>
           <li>Communication Skills</li>
-          <li>Always Learning</li>
+          <li>Learning</li>
           <li>Time Management</li>
         </ul>
       </section>

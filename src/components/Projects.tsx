@@ -13,12 +13,15 @@ function Projects() {
           be found on my&nbsp;
           <Link
             href="https://github.com/ShubhamkumarAnand"
-            className="font-mono font-bold underline underline-offset-4"
+            className="font-mono font-bold text-yellow-700 underline underline-offset-4"
           >
             Github
-          </Link>
+          </Link>{" "}
           !
         </p>
+        <button className="button my-12 rounded-3xl bg-red-700 p-4 text-2xl font-bold">
+          Show Me More
+        </button>
       </section>
     </div>
   );

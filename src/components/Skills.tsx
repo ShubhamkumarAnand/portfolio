@@ -5,7 +5,7 @@ function Skills() {
     <div className="mx-auto my-12 flex items-center space-x-24">
       <section className="container mx-24">
         <h1 className="text-9xl font-extrabold text-white">Skills</h1>
-        <p className="my-12 text-lg font-semibold tracking-wide text-gray-300">
+        <p className="my-12 p-4 text-2xl font-semibold tracking-wide text-gray-300">
           An individual eager to learn and explore new fields of life and
           technology, with good listening skills and fast learning abilities.
         </p>
