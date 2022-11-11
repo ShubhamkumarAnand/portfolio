@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+function Introduction() {
   return (
     <div className="container mx-auto mt-12 flex h-full max-w-fit items-center justify-items-center space-x-24 space-y-12 p-6">
       <section className="container float-left mx-auto justify-start ">
@@ -21,4 +21,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Introduction;

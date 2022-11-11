@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Home from "../components/Home";
+import About from "../components/About";
+import Introduction from "../components/Introduction";
 import Logo from "../components/Logo";
 
 const Home: NextPage = () => {
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         </header>
         <section className="h-max">
           <Introduction />
+          <About />
         </section>
       </main>
     </>
