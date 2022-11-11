@@ -32,7 +32,7 @@ function About() {
           width="385"
           height="385"
         />
-        <ul className="container mx-16 my-16 flex items-center space-x-6 font-bold">
+        <ul className="container mx-24 my-16 flex items-center space-x-6 font-bold">
           <li>LeaderShip Skills</li>
           <li>Problem Solving</li>
           <li>Communication Skills</li>
