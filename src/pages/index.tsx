@@ -16,11 +16,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-slate-500">
-        <header>
+      <main className=" bg-slate-500">
+        <nav className="z-24 fixed top-0 right-0 left-0 m-0 mb-24 mt-0 w-full rounded-xl">
           <Logo />
-        </header>
-        <section className="min-h-screen">
+        </nav>
+        <section className="mt-12 min-h-screen">
           <Introduction />
           <About />
           <Skills />
