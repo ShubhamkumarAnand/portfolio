@@ -2,7 +2,7 @@ import Image from "next/image";
 import profileImage from "/public/imskanad.png";
 function About() {
   return (
-    <div className="container mx-auto my-10 flex space-y-12">
+    <div className="container mx-auto my-10 flex h-screen space-x-12">
       <section className="mx-auto w-1/2">
         <h1 className="text-9xl font-extrabold tracking-wider text-white">
           About Me

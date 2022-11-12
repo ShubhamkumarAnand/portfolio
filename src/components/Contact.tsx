@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="container mx-auto my-10 flex max-h-fit space-y-12">
+    <div className="container mx-auto my-10 mb-96 flex max-h-screen space-x-12">
       <section className="mr-12 w-1/2">
         <h1 className="my-8 text-8xl font-bold tracking-wider text-white">
           Contact Me

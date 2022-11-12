@@ -2,8 +2,8 @@ import React from "react";
 
 function Introduction() {
   return (
-    <div className="container mx-auto my-12 flex min-h-full max-w-fit items-center justify-items-center space-x-24 space-y-12 p-6">
-      <section className="container float-left mx-auto justify-start ">
+    <div className="container mx-auto my-12 flex h-screen max-w-fit items-center justify-items-center space-x-24 space-y-12 p-6">
+      <section className="container mx-auto justify-start ">
         <h1 className="text-3xl">
           I am{" "}
           <span className="items-start text-yellow-700">
