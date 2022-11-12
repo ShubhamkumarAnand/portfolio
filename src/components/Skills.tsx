@@ -5,11 +5,11 @@ function Skills() {
     <div className="container mx-auto my-10 flex h-screen space-x-12">
       <section className="mr-12 w-1/2">
         <h1 className="text-9xl font-extrabold text-white">Skills</h1>
-        <p className="my-12 p-4 font-mono text-3xl font-medium tracking-wide text-gray-300">
+        <p className="my-8 p-4 font-mono text-3xl font-medium tracking-wide text-gray-300">
           An individual eager to learn and explore new fields of life and
           technology, with good listening skills and fast learning abilities.
         </p>
-        <div className="container m-12 w-2/3 items-center rounded-sm bg-yellow-300 p-6 shadow-lg">
+        <div className="container m-8 w-2/3 items-center rounded-sm bg-yellow-300 p-6 shadow-lg">
           <h3 className="my-2 text-2xl font-medium text-white">Interests</h3>
           <h3 className="text-xl font-medium text-yellow-900">
             Full Stack Development
