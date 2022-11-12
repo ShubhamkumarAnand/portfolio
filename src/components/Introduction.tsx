@@ -2,7 +2,7 @@ import React from "react";
 
 function Introduction() {
   return (
-    <div className="container mx-auto my-12 flex h-screen max-w-fit items-center justify-items-center space-x-24 space-y-12 p-6">
+    <div className="container mx-auto my-12 flex h-screen max-w-fit items-center justify-items-center space-x-24 space-y-12 p-6 ">
       <section className="container mx-auto justify-start ">
         <h1 className="text-3xl">
           I am{" "}
@@ -13,7 +13,8 @@ function Introduction() {
       </section>
       <section className="container float-right mx-auto w-1/2 items-center space-y-12 font-extrabold">
         <h1 className="text-9xl tracking-wider text-yellow-700">
-          Hello<span className="text-9xl text-white">.</span>
+          Hello
+          <span className="animate-pulse text-9xl text-slate-900">.</span>
         </h1>
         <br />
         <span className="mb-12 text-9xl tracking-wider text-white">I am</span>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import profileImage from "/public/imskanad.png";
+import Link from "next/link";
 function About() {
   return (
     <div className="container mx-auto my-10 flex h-screen space-x-12">
@@ -13,10 +14,12 @@ function About() {
         </p>
         <section className="container flex space-x-6">
           <button className="button rounded-xl bg-white p-2 text-black">
-            Github
+            <Link href="https://github.com/ShubhamkumarAnand">GitHub</Link>
           </button>
           <button className="button mx-2 rounded-xl bg-blue-500 p-2 text-white">
-            LinkedIN
+            <Link href="https://www.linkedin.com/in/shubham-kumar-anand-19b52618b/">
+              LinkedIN
+            </Link>
           </button>
         </section>
         <br />
