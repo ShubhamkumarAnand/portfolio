@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import { IoArrowForwardOutline } from "react-icons/io5";
 
 function Projects() {
   return (
@@ -19,8 +19,8 @@ function Projects() {
           </Link>{" "}
           !
         </p>
-        <button className="button my-12 rounded-3xl bg-red-700 p-4 text-2xl font-bold">
-          Show Me More
+        <button className="button my-12 flex rounded-3xl bg-red-700 p-4 text-2xl font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-red-300">
+          Show Me More <IoArrowForwardOutline className="mx-2 mt-1" />
         </button>
       </section>
     </div>

@@ -2,7 +2,10 @@ import Image from "next/image";
 import profileImage from "/public/resources/imskanad.png";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
-import { url } from "inspector";
+import { MdLeaderboard } from "react-icons/md";
+import { BiCodeAlt } from "react-icons/bi";
+import { GiPublicSpeaker } from "react-icons/gi";
+import { SiFuturelearn } from "react-icons/si";
 
 function About() {
   return (
@@ -16,25 +19,22 @@ function About() {
           programming since the Freshman year of my University.
         </p>
         <section className="container flex space-x-6">
-          <button className="rounded-xl bg-white p-2 text-black duration-300 ease-in">
+          <button className="hover:bg-gray-900-300 rounded-xl bg-black p-2 text-black transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
             <Link href="https://github.com/ShubhamkumarAnand">
               <FaGithub className="h-12 w-20" />
             </Link>
           </button>
-          <button className="mx-2 rounded-xl bg-blue-500 p-2 text-white duration-300 ease-in">
-            <Link
-              href="https://www.linkedin.com/in/shubham-kumar-anand-19b52618b/"
-              className=""
-            >
+          <button className="mx-2 rounded-xl bg-blue-500 p-2 text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-300">
+            <Link href="https://www.linkedin.com/in/shubham-kumar-anand-19b52618b/">
               <FaLinkedin className="h-12 w-20" />
             </Link>
           </button>
         </section>
         <br />
-        <button className="flex flex-row">
+        <button className="flex flex-row rounded-xl bg-red-700 p-4 text-3xl shadow transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-red-300">
           <Link
             href="https://drive.google.com/file/d/1J5L3BecQG4EWmN8oI_1i7ETAlrmwxQ_R/view?usp=sharing"
-            className=" flex space-x-2 rounded-xl bg-red-700 p-4 text-3xl shadow-md"
+            className=" -md flex space-x-2 "
           >
             <FaDownload className="mx-auto" />
             <h2>Resume</h2>
@@ -50,14 +50,25 @@ function About() {
           height="385"
         />
         <ul className="my-16 mx-24 flex items-end space-x-8 font-bold">
-          <li>LeaderShip Skills</li>
-          <li>Problem Solving</li>
-          <li>Communication Skills</li>
-          <li>Learning</li>
+          <li>
+            <MdLeaderboard className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />
+            LeaderShip Skills
+          </li>
+          <li>
+            <BiCodeAlt className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />
+            Problem Solving
+          </li>
+          <li>
+            <GiPublicSpeaker className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Public Speaker
+          </li>
+          <li>
+            <SiFuturelearn className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Learning
+          </li>
         </ul>
       </section>
     </div>
   );
 }
-
 export default About;
