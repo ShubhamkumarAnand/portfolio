@@ -1,6 +1,9 @@
 import Image from "next/image";
-import profileImage from "/public/imskanad.png";
+import profileImage from "/public/resources/imskanad.png";
 import Link from "next/link";
+import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import { url } from "inspector";
+
 function About() {
   return (
     <div className="container mx-auto my-10 flex h-screen space-x-12">
@@ -13,18 +16,29 @@ function About() {
           programming since the Freshman year of my University.
         </p>
         <section className="container flex space-x-6">
-          <button className="button rounded-xl bg-white p-2 text-black">
-            <Link href="https://github.com/ShubhamkumarAnand">GitHub</Link>
+          <button className="rounded-xl bg-white p-2 text-black duration-300 ease-in">
+            <Link href="https://github.com/ShubhamkumarAnand">
+              <FaGithub className="h-12 w-20" />
+            </Link>
           </button>
-          <button className="button mx-2 rounded-xl bg-blue-500 p-2 text-white">
-            <Link href="https://www.linkedin.com/in/shubham-kumar-anand-19b52618b/">
-              LinkedIN
+          <button className="mx-2 rounded-xl bg-blue-500 p-2 text-white duration-300 ease-in">
+            <Link
+              href="https://www.linkedin.com/in/shubham-kumar-anand-19b52618b/"
+              className=""
+            >
+              <FaLinkedin className="h-12 w-20" />
             </Link>
           </button>
         </section>
         <br />
-        <button className=" button rounded-3xl bg-red-700 p-4 text-3xl font-semibold text-white shadow-xl">
-          Resume
+        <button className="flex flex-row">
+          <Link
+            href="https://drive.google.com/file/d/1J5L3BecQG4EWmN8oI_1i7ETAlrmwxQ_R/view?usp=sharing"
+            className=" flex space-x-2 rounded-xl bg-red-700 p-4 text-3xl shadow-md"
+          >
+            <FaDownload className="mx-auto" />
+            <h2>Resume</h2>
+          </Link>
         </button>
       </section>
       <section className="container mx-auto w-1/2 ">
@@ -35,7 +49,7 @@ function About() {
           width="385"
           height="385"
         />
-        <ul className="container mx-24 my-16 flex items-center space-x-6 font-bold">
+        <ul className="my-16 mx-24 flex items-end space-x-8 font-bold">
           <li>LeaderShip Skills</li>
           <li>Problem Solving</li>
           <li>Communication Skills</li>
