@@ -1,4 +1,17 @@
-import React from "react";
+import { FaReact } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiNodedotjs,
+  SiPostgresql,
+  SiLinux,
+  SiCodio,
+} from "react-icons/si";
+import { VscVmActive } from "react-icons/vsc";
 
 function Skills() {
   return (
@@ -23,25 +36,63 @@ function Skills() {
         </div>
       </section>
       <section className="container mx-auto w-1/2">
-        <ul className="container my-8 mx-12 flex space-x-12">
-          <li>Next js</li>
-          <li>React</li>
-          <li>Tailwind CSS</li>
-          <li>Typescript</li>
+        <ul className="my- container mx-12 flex space-x-12">
+          <li>
+            {" "}
+            <TbBrandNextjs className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Next js
+          </li>
+          <li>
+            {" "}
+            <FaReact className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            React
+          </li>
+          <li>
+            <SiTailwindcss className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Tailwind CSS
+          </li>
+          <li>
+            <SiTypescript className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Typescript
+          </li>
         </ul>
         <br />
-        <ul className="container m-12 my-8 flex space-x-12">
-          <li>JavaScript</li>
-          <li>C++</li>
-          <li>HTML-5</li>
-          <li>CSS-3</li>
+        <ul className="container m-12 my-4 flex space-x-12 font-medium">
+          <li>
+            <SiJavascript className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            JavaScript
+          </li>
+          <li>
+            <SiCodio className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            C++
+          </li>
+          <li>
+            <SiHtml5 className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            HTML-5
+          </li>
+          <li>
+            <SiCss3 className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            CSS-3
+          </li>
         </ul>
         <br />
-        <ul className="container my-8 mx-12 flex space-x-12">
-          <li>Node js</li>
-          <li>Postgres</li>
-          <li>VS Code</li>
-          <li>Linux</li>
+        <ul className="container my-4 mx-12 flex space-x-12">
+          <li>
+            <SiNodedotjs className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Node js
+          </li>
+          <li>
+            <SiPostgresql className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Postgres
+          </li>
+          <li>
+            <VscVmActive className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            VS Code
+          </li>
+          <li>
+            <SiLinux className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            Linux
+          </li>
         </ul>
       </section>
     </div>
