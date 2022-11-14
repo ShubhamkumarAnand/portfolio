@@ -36,7 +36,7 @@ function Skills() {
         </div>
       </section>
       <section className="container mx-auto w-1/2">
-        <ul className="my- container mx-12 flex space-x-12">
+        <ul className="container mx-12 flex space-x-12">
           <li>
             {" "}
             <TbBrandNextjs className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
