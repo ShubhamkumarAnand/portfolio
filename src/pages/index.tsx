@@ -1,10 +1,12 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Introduction from "../components/Introduction";
 import Logo from "../components/Logo";
+import Navigator from "../components/Navigator";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 
@@ -19,14 +21,27 @@ const Home: NextPage = () => {
 
       <main className=" bg-slate-500">
         <nav className="z-24 fixed top-0 right-0 left-0 m-0 mb-24 mt-0 w-full rounded-xl">
-          <Logo />
+          <Link href="#introduction">
+            <Logo />
+            <Navigator />
+          </Link>
         </nav>
         <section className="mt-12 min-h-screen">
-          <Introduction />
-          <About />
-          <Skills />
-          <Projects />
-          <Contact />
+          <div id="introduction">
+            <Introduction />
+          </div>
+          <div id="about">
+            <About />
+          </div>
+          <div id="skills">
+            <Skills />
+          </div>
+          <div id="projects">
+            <Projects />
+          </div>
+          <div id="contact">
+            <Contact />
+          </div>
           <Footer />
         </section>
       </main>
