@@ -5,7 +5,7 @@ function Contact() {
         <h1 className="my-8 text-8xl font-bold tracking-wider text-white">
           Contact Me
         </h1>
-        <p className="font-mono text-xl tracking-wider text-white">
+        <p className="mr-8 font-mono text-xl tracking-wider text-white">
           I am available for development-related work. I am also open to
           opportunities for Winter 2022 & Summer 2023
         </p>
