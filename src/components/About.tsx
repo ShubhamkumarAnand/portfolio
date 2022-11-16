@@ -19,7 +19,7 @@ function About() {
           programming since the Freshman year of my University.
         </p>
         <section className="container flex space-x-6">
-          <button className="hover:bg-gray-900-300 rounded-xl bg-black p-2 text-black transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+          <button className="hover:bg-gray-900-300 rounded-xl bg-black p-2 text-black transition delay-150 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110">
             <Link href="https://github.com/ShubhamkumarAnand">
               <FaGithub className="h-12 w-20" />
             </Link>
@@ -31,7 +31,7 @@ function About() {
           </button>
         </section>
         <br />
-        <button className="flex flex-row rounded-xl bg-red-700 p-4 text-3xl shadow transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-red-300">
+        <button className="flex flex-row rounded-xl bg-red-700 p-4 text-3xl shadow transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-300">
           <Link
             href="https://drive.google.com/file/d/1J5L3BecQG4EWmN8oI_1i7ETAlrmwxQ_R/view?usp=sharing"
             className=" -md flex space-x-2 "
