@@ -21,34 +21,32 @@ function Contact() {
         <p className="my-2 font-mono text-xl text-yellow-700">
           Have a Question | Want to Collaborate?
         </p>
-        <form action="">
-          <input
-            type="text"
-            name="Name"
-            className="mx-auto w-3/4 rounded-lg bg-blue-100 p-4"
-            placeholder="Name"
-            required
-          />
-          <input
-            type="email"
-            name="Email"
-            className="mx-auto w-3/4 rounded-lg bg-blue-100 p-4"
-            placeholder="Email"
-            required
-          />
-          <input
-            type="text"
-            name="Message"
-            className="mx-auto w-3/4 rounded-lg bg-blue-100 p-4"
-            placeholder="Message"
-            required
-          />
-          <br />
-          <button className="button justify-items-end rounded bg-yellow-700 p-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:rounded-xl hover:bg-green-300">
-            {" "}
-            Contact Me
-          </button>
-        </form>
+        <input
+          type="text"
+          name="Name"
+          className="mx-auto w-3/4 rounded-lg bg-blue-100 p-4"
+          placeholder="Name"
+          required
+        />
+        <input
+          type="email"
+          name="Email"
+          className="mx-auto w-3/4 rounded-lg bg-blue-100 p-4"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="text"
+          name="Message"
+          className="mx-auto w-3/4 rounded-lg bg-blue-100 p-4"
+          placeholder="Message"
+          required
+        />
+        <br />
+        <button className="button justify-items-end rounded bg-yellow-700 p-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:rounded-xl hover:bg-green-300">
+          {" "}
+          Contact Me
+        </button>
       </section>
     </div>
   );
