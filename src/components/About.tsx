@@ -10,11 +10,11 @@ import { SiFuturelearn } from "react-icons/si";
 function About() {
   return (
     <div className="container m-10 mx-auto flex h-screen space-x-24">
-      <section className="mx-px w-1/2">
+      <section className="mx-px mt-10 w-1/2">
         <h1 className="text-9xl font-extrabold tracking-wider text-white hover:text-yellow-50">
           About Me
         </h1>
-        <p className="my-10 font-mono text-3xl tracking-wide text-gray-300 hover:text-yellow-100">
+        <p className="my-10 font-mono text-2xl tracking-wide text-gray-300 hover:text-yellow-100">
           I am Final Year Computer Science & Engineering Student and doing the
           programming since the Freshman year of my University.
         </p>
