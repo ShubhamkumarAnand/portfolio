@@ -43,7 +43,7 @@ function Contact() {
           required
         />
         <br />
-        <button className="button justify-items-end rounded bg-yellow-700 p-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-yellow-300">
+        <button className="button justify-items-end rounded bg-yellow-700 p-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:rounded-xl hover:bg-green-300">
           {" "}
           Contact Me
         </button>
