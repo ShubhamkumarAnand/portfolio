@@ -13,12 +13,12 @@ function Projects() {
         <h1 className="my-12 text-9xl font-extrabold tracking-wider text-white">
           Projects
         </h1>
-        <p className="font-mono text-xl tracking-wider text-white">
+        <p className="font-mono text-2xl tracking-wider text-white">
           Here is a showcase of some of my best projects that I made. They can
           be found on my&nbsp;
           <Link
             href="https://github.com/ShubhamkumarAnand"
-            className="font-mono font-bold text-yellow-700 underline underline-offset-4 hover:text-2xl hover:text-green-300"
+            className="font-mono font-bold text-yellow-700 underline underline-offset-4 hover:text-3xl hover:text-green-300"
           >
             Github
           </Link>{" "}
@@ -32,7 +32,7 @@ function Projects() {
         </Link>
       </section>
       <section>
-        <ul className="mb-6 flex flex-row space-x-6">
+        <ul className="mb-6 flex flex-row space-x-12">
           <li>
             <Link href="https://buyzon.vercel.app/" className="shadow-xl">
               <Image
