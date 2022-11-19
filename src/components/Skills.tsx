@@ -17,14 +17,14 @@ function Skills() {
   return (
     <div className="container mx-auto my-10 flex h-screen space-x-12">
       <section className="mr-10 mt-8 w-1/2">
-        <h1 className="text-9xl font-medium tracking-wide text-white">
+        <h1 className="text-9xl font-medium tracking-wide text-white hover:text-yellow-300">
           Skills
         </h1>
-        <p className="my-8 font-mono text-2xl font-medium tracking-wide text-gray-300">
+        <p className="my-8 font-mono text-2xl font-medium text-gray-300 hover:text-white">
           An individual eager to learn and explore new fields of life and
           technology, with good listening skills and fast learning abilities.
         </p>
-        <div className="container w-2/3 items-center rounded-sm bg-yellow-700 p-6 shadow-lg hover:bg-yellow-100">
+        <div className="container w-2/3 items-center rounded-sm bg-yellow-700 p-6 shadow-lg hover:bg-yellow-300">
           <h3 className="my-2 text-2xl font-medium text-yellow-100">
             Interests
           </h3>
@@ -35,7 +35,7 @@ function Skills() {
           <h3 className="text-xl font-medium text-white">Public Speaking</h3>
         </div>
       </section>
-      <section className="container mx-auto w-1/2">
+      <section className="container mx-auto mt-12 w-1/2">
         <ul className="container mx-32 flex space-x-12">
           <li>
             {" "}

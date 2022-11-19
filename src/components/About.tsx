@@ -11,27 +11,27 @@ function About() {
   return (
     <div className="container m-10 mx-auto flex h-screen space-x-24">
       <section className="mx-px mt-10 w-1/2">
-        <h1 className="text-9xl font-medium tracking-wide text-white hover:text-yellow-50">
+        <h1 className="text-9xl font-medium tracking-wide text-white hover:text-yellow-300">
           About Me
         </h1>
-        <p className="my-10 font-mono text-2xl tracking-wide text-gray-300 hover:text-yellow-100">
+        <p className="my-10 font-mono text-2xl tracking-wide text-gray-300 hover:text-white">
           I am Final Year Computer Science & Engineering Student and doing the
           programming since the Freshman year of my University.
         </p>
         <section className="container flex space-x-6">
-          <button className="rounded-xl bg-black p-2 transition delay-75 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110">
+          <button className="rounded-xl border-4 p-1 transition delay-75 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110 hover:bg-black">
             <Link href="https://github.com/ShubhamkumarAnand">
               <FaGithub className="h-12 w-20" />
             </Link>
           </button>
-          <button className="mx-2 rounded-xl bg-blue-500 p-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-300">
+          <button className="mx-2 rounded-xl border-4 border-blue-600 p-1 transition delay-150 duration-300 ease-in-out hover:-translate-y-2 hover:scale-110 hover:bg-blue-500">
             <Link href="https://www.linkedin.com/in/shubham-kumar-anand-19b52618b/">
               <FaLinkedin className="h-12 w-20" />
             </Link>
           </button>
         </section>
         <br />
-        <button className="flex flex-row rounded-xl bg-red-700 p-4 text-3xl shadow transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-300">
+        <button className="flex flex-row rounded-xl bg-yellow-700 p-4 text-3xl shadow transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-none hover:bg-yellow-500">
           <Link
             href="https://drive.google.com/file/d/1J5L3BecQG4EWmN8oI_1i7ETAlrmwxQ_R/view?usp=sharing"
             className=" -md flex space-x-2 font-medium"
@@ -48,7 +48,7 @@ function About() {
           width="385"
           height="385"
         />
-        <ul className="mx-32 mt-16 flex space-x-4 font-bold">
+        <ul className="mx-32 mt-16 flex space-x-6 font-medium">
           <li>
             <MdLeaderboard className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />
             LeaderShip Skills
