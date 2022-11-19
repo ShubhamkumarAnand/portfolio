@@ -26,7 +26,7 @@ function Projects() {
         </p>
         <Link
           href="https://github.com/ShubhamkumarAnand?tab=repositories&type=source"
-          className="button my-12 flex w-fit rounded-3xl bg-yellow-700 p-4 text-2xl font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-300"
+          className="button my-12 flex w-fit rounded-3xl bg-red-500 p-4 text-2xl font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-300"
         >
           Show Me More <IoArrowForwardOutline className="mx-2 mt-1" />
         </Link>
