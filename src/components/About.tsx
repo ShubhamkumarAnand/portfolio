@@ -14,7 +14,7 @@ function About() {
         <h1 className="text-9xl font-medium tracking-wide text-white hover:text-yellow-300">
           About Me
         </h1>
-        <p className="my-10 font-mono text-2xl tracking-wide text-gray-300 hover:text-white">
+        <p className="my-10 font-mono text-2xl  text-gray-300 hover:text-white">
           I am Final Year Computer Science & Engineering Student and doing the
           programming since the Freshman year of my University.
         </p>
