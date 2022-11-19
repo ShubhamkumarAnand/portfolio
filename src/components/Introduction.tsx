@@ -14,15 +14,13 @@ function Introduction() {
       <section className="space-y-12 font-bold">
         <h1 className="text-9xl tracking-wide text-yellow-700">
           Hello
-          <span className="animate-pulse text-9xl text-white hover:text-green-500">
-            .
-          </span>
+          <span className="animate-pulse text-9xl text-green-500">.</span>
         </h1>
-        <span className="text-9xl tracking-wider text-white hover:text-green-50">
+        <span className="text-9xl tracking-wide text-white hover:text-green-50">
           I am
         </span>
         <br className="my-12" />
-        <span className="text-9xl tracking-wider text-yellow-700">Shubham</span>
+        <span className="text-9xl tracking-wide text-yellow-700">Shubham</span>
       </section>
     </div>
   );
