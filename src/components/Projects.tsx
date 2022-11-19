@@ -10,7 +10,7 @@ function Projects() {
   return (
     <div className="container mx-auto my-10 flex h-screen space-y-12">
       <section className="mr-12 w-1/2">
-        <h1 className="my-12 text-9xl font-extrabold tracking-wider text-white">
+        <h1 className="my-12 text-9xl font-medium tracking-wide text-white">
           Projects
         </h1>
         <p className="font-mono text-2xl tracking-wider text-white">

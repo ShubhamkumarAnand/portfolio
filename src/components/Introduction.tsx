@@ -12,7 +12,7 @@ function Introduction() {
         </h1>
       </section>
       <section className="space-y-12 font-bold">
-        <h1 className="text-9xl tracking-wider text-yellow-700">
+        <h1 className="text-9xl tracking-wide text-yellow-700">
           Hello
           <span className="animate-pulse text-9xl text-white hover:text-green-500">
             .
