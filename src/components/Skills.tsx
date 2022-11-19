@@ -17,7 +17,7 @@ function Skills() {
   return (
     <div className="container mx-auto my-10 flex h-screen space-x-12">
       <section className="mr-10 mt-8 w-1/2">
-        <h1 className="text-9xl font-extrabold text-white">Skills</h1>
+        <h1 className="text-9xl font-medium text-white">Skills</h1>
         <p className="my-8 font-mono text-2xl font-medium tracking-wide text-gray-300">
           An individual eager to learn and explore new fields of life and
           technology, with good listening skills and fast learning abilities.
