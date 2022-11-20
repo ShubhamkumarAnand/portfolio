@@ -46,7 +46,7 @@ export default function ContactForm() {
       />
       <br />
       <textarea
-        className="mx-auto my-6 w-3/4 rounded-lg bg-slate-600 p-4 text-black"
+        className="mx-auto my-4 w-3/4 rounded-lg bg-slate-600 p-4 text-black"
         placeholder="Message..."
         id="message"
         name="message"
