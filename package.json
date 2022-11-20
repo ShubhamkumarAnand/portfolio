@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@next/font": "^13.0.4",
     "next": "13.0.2",
     "react": "18.2.0",
