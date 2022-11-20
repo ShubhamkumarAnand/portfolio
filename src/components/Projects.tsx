@@ -10,7 +10,7 @@ function Projects() {
   return (
     <div className="container mx-auto my-10 flex h-screen space-y-12">
       <section className="mr-12 w-1/2">
-        <h1 className="my-12 text-9xl font-medium tracking-wide text-white hover:text-yellow-300">
+        <h1 className="my-12 text-9xl font-medium tracking-wide text-yellow-300 hover:text-white">
           Projects
         </h1>
         <p className="font-mono text-2xl text-gray-200 hover:text-white">
@@ -18,7 +18,7 @@ function Projects() {
           They can be found on my&nbsp;
           <Link
             href="https://github.com/ShubhamkumarAnand"
-            className="font-mono font-bold text-yellow-700 underline underline-offset-4 hover:text-3xl hover:text-green-300"
+            className="font-mono font-bold text-yellow-700 underline underline-offset-4 hover:text-3xl hover:text-green-500"
           >
             Github
           </Link>{" "}
@@ -26,9 +26,9 @@ function Projects() {
         </p>
         <Link
           href="https://github.com/ShubhamkumarAnand?tab=repositories&type=source"
-          className="button my-12 flex w-fit rounded-3xl bg-red-500 p-4 text-2xl font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-300"
+          className="button my-12 flex w-fit rounded-xl bg-red-500 p-4 text-2xl font-bold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-300"
         >
-          Show Me More <IoArrowForwardOutline className="mx-2 mt-1" />
+          Show Me More <IoArrowForwardOutline className="ml-2 mt-1" />
         </Link>
       </section>
       <section>

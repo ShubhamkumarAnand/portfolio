@@ -1,13 +1,22 @@
-import React from "react";
+import Typewriter from "typewriter-effect";
 
 function Introduction() {
   return (
     <div className="container my-12 flex h-screen flex-row items-center space-x-6 p-6">
       <section className="container ml-60 items-center">
-        <h1 className="text-3xl">
-          I am{" "}
-          <span className="text-yellow-700 hover:font-bold hover:text-yellow-500">
-            Full Stack Developer
+        <h1 className="my-4 box-border flex text-3xl">
+          I&apos;m a&nbsp;
+          <span className="font-bold tracking-wide text-yellow-700 hover:font-medium hover:text-yellow-500">
+            <Typewriter
+              options={{
+                strings: ["Software Developer", "Full Stack Developer"],
+                autoStart: true,
+                loop: true,
+              }}
+              onInit={(typewriter) => {
+                typewriter.pauseFor(250).deleteAll().start();
+              }}
+            />
           </span>
         </h1>
       </section>

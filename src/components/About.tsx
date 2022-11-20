@@ -11,7 +11,7 @@ function About() {
   return (
     <div className="container m-10 mx-auto flex h-screen space-x-24">
       <section className="mx-px mt-10 w-1/2">
-        <h1 className="text-9xl font-medium tracking-wide text-white hover:text-yellow-300">
+        <h1 className="text-9xl font-medium tracking-wide text-yellow-300 hover:text-white">
           About Me
         </h1>
         <p className="my-10 font-mono text-2xl  text-gray-300 hover:text-white">
@@ -50,19 +50,19 @@ function About() {
         />
         <ul className="mx-32 mt-16 flex space-x-6 font-medium">
           <li>
-            <MdLeaderboard className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />
+            <MdLeaderboard className="my-4 h-20 w-20 rounded-xl bg-yellow-600 p-2" />
             LeaderShip Skills
           </li>
           <li>
-            <BiCodeAlt className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />
+            <BiCodeAlt className="my-4 h-20 w-20 rounded-xl bg-yellow-600 p-2" />
             Problem Solving
           </li>
           <li>
-            <GiPublicSpeaker className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            <GiPublicSpeaker className="my-4 h-20 w-20 rounded-xl bg-yellow-600 p-2" />{" "}
             Public Speaker
           </li>
           <li>
-            <SiFuturelearn className="my-4 h-20 w-20 rounded-xl bg-yellow-700 p-2" />{" "}
+            <SiFuturelearn className="my-4 h-20 w-20 rounded-xl bg-yellow-600 p-2" />{" "}
             Learning
           </li>
         </ul>

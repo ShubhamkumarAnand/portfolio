@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div className="container mx-auto mb-96 flex space-x-12">
       <section className="mr-12 w-1/2">
-        <h1 className="my-8 text-8xl font-medium tracking-wide text-white hover:text-yellow-300">
+        <h1 className="my-8 text-8xl font-medium tracking-wide text-yellow-300 hover:text-white">
           Contact Me
         </h1>
         <p className="mr-8 font-mono text-2xl tracking-wide text-gray-200 hover:text-white">
