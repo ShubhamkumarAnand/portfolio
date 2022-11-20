@@ -6,7 +6,6 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Introduction from "../components/Introduction";
 import Logo from "../components/Logo";
-import Navigator from "../components/Navigator";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 
@@ -23,7 +22,6 @@ const Home: NextPage = () => {
         <nav className="z-12 fixed top-0 right-0 left-0 m-0 w-full rounded-md">
           <Link href="#introduction">
             <Logo />
-            <Navigator />
           </Link>
         </nav>
         <section className="min-h-screen">
