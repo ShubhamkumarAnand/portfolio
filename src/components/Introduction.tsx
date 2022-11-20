@@ -6,7 +6,7 @@ function Introduction() {
       <section className="container ml-60 items-center">
         <h1 className="my-4 box-border flex text-3xl">
           I&apos;m a&nbsp;
-          <span className="font-bold tracking-wide text-yellow-700 hover:font-medium hover:text-yellow-500">
+          <span className="font-bold tracking-wide text-yellow-300 hover:font-medium hover:text-yellow-500">
             <Typewriter
               options={{
                 strings: ["Software Developer", "Full Stack Developer"],
@@ -21,7 +21,7 @@ function Introduction() {
         </h1>
       </section>
       <section className="space-y-12 font-bold">
-        <h1 className="text-9xl tracking-wide text-yellow-700">
+        <h1 className="text-9xl tracking-wide text-yellow-300">
           Hello
           <span className="animate-pulse text-9xl text-green-500">.</span>
         </h1>
@@ -29,7 +29,7 @@ function Introduction() {
           I am
         </span>
         <br className="my-12" />
-        <span className="text-9xl tracking-wide text-yellow-700">Shubham</span>
+        <span className="text-9xl tracking-wide text-yellow-300">Shubham</span>
       </section>
     </div>
   );
