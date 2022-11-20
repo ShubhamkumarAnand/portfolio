@@ -19,8 +19,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-slate-500">
-        <nav className="z-24 fixed top-0 right-0 left-0 m-0 mb-24 mt-0 w-full rounded-xl">
+      <main className="bg-slate-700">
+        <nav className="z-24 fixed top-0 right-0 left-0 bottom-0 m-0 mb-24 mt-0 w-full rounded-xl">
           <Link href="#introduction">
             <Logo />
             <Navigator />
