@@ -20,7 +20,7 @@ function Contact() {
         </p>
       </section>
       <section className="ml-12 w-1/2 space-y-6 text-start">
-        <p className="mb-2 font-mono text-xl text-yellow-300">
+        <p className="m-2 font-mono text-xl text-yellow-300">
           Have a Question | Want to Collaborate?
         </p>
         <ContactForm />

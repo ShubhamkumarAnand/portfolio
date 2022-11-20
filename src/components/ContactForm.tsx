@@ -12,22 +12,21 @@ export default function ContactForm() {
       </div>
     );
   }
-  // if (state.errors) {
-  //   return (
-  //     <div className="w-fit rounded-md bg-green-700 p-12">
-  //       <p className="text-3xl font-medium text-white">
-  //         please contact through the Provided Email 😀
-  //         <br />
-  //         I&apos;ll Contact You Soon!
-  //       </p>
-  //     </div>
-  //   );
-  // }
   return (
     <form onSubmit={handleSubmit}>
       <input
-        className="mx-auto w-3/4 rounded-lg bg-slate-600 p-4 text-black"
-        placeholder="Email :"
+        className="mx-auto mt-4 w-3/4 rounded-lg bg-slate-600 p-4 text-black"
+        placeholder="Name : "
+        id="name"
+        type="name"
+        name="name"
+        autoComplete="off"
+        required
+      />
+      <br />
+      <input
+        className="mx-auto my-2 w-3/4 rounded-lg bg-slate-600 p-4 text-black"
+        placeholder="Email : "
         id="email"
         type="email"
         name="email"
@@ -36,6 +35,16 @@ export default function ContactForm() {
       />
       <br />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
+      <input
+        className="mx-auto mb-2 w-3/4 rounded-lg bg-slate-600 p-4 text-black"
+        placeholder="Subject : "
+        id="subject"
+        type="subject"
+        name="subject"
+        autoComplete="off"
+        required
+      />
+      <br />
       <textarea
         className="mx-auto my-6 w-3/4 rounded-lg bg-slate-600 p-4 text-black"
         placeholder="Message..."
