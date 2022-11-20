@@ -18,7 +18,7 @@ function Contact() {
         </p>
       </section>
       <section className="ml-12 w-1/2 space-y-6 text-start">
-        <p className="my-2 font-mono text-xl text-yellow-700">
+        <p className="mb-2 font-mono text-xl text-yellow-700">
           Have a Question | Want to Collaborate?
         </p>
         <input

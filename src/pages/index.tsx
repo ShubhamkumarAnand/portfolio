@@ -19,14 +19,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-slate-700">
+      <main className="bg-slate-700 ">
         <nav className="z-12 fixed top-0 right-0 left-0 m-0 w-full rounded-md">
           <Link href="#introduction">
             <Logo />
             <Navigator />
           </Link>
         </nav>
-        <section className="mt-12 min-h-screen">
+        <section className="min-h-screen">
           <div id="introduction">
             <Introduction />
           </div>

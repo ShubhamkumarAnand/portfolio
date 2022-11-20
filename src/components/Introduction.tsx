@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 function Introduction() {
   return (
-    <div className="container my-12 flex h-screen flex-row items-center space-x-6 p-6">
+    <div className="container flex h-screen flex-row items-center space-x-6 p-6">
       <section className="container ml-60 items-center">
         <h1 className="my-4 box-border flex text-3xl">
           I&apos;m a&nbsp;
