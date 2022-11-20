@@ -12,17 +12,17 @@ export default function ContactForm() {
       </div>
     );
   }
-  if (state.errors) {
-    return (
-      <div className="w-fit rounded-md bg-green-700 p-12">
-        <p className="text-3xl font-medium text-white">
-          please contact through the Provided Email 😀
-          <br />
-          I&apos;ll Contact You Soon!
-        </p>
-      </div>
-    );
-  }
+  // if (state.errors) {
+  //   return (
+  //     <div className="w-fit rounded-md bg-green-700 p-12">
+  //       <p className="text-3xl font-medium text-white">
+  //         please contact through the Provided Email 😀
+  //         <br />
+  //         I&apos;ll Contact You Soon!
+  //       </p>
+  //     </div>
+  //   );
+  // }
   return (
     <form onSubmit={handleSubmit}>
       <input
