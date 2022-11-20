@@ -25,12 +25,18 @@ function Skills() {
           technology, with good listening skills and fast learning abilities.
         </p>
         <div className="container w-2/3 items-center rounded-sm bg-yellow-600 p-6 shadow-lg hover:bg-yellow-300">
-          <h3 className="my-2 text-2xl font-medium text-white">Interests</h3>
-          <h3 className="text-xl font-medium text-white">
-            Full Stack Development
+          <h3 className="mb-4 text-2xl font-medium uppercase text-gray-300">
+            Interests
           </h3>
-          <h3 className="text-xl font-medium text-white">Writing Document</h3>
-          <h3 className="text-xl font-medium text-white">Public Speaking</h3>
+          <h3 className="text-xl font-medium text-white">
+            Full Stack Web Development
+          </h3>
+          <h3 className="text-xl font-medium text-white">
+            Full Stack App Development
+          </h3>
+          <h3 className="text-xl font-medium text-white">
+            Writing Documentation
+          </h3>
         </div>
       </section>
       <section className="container mx-auto mt-12 w-1/2">
