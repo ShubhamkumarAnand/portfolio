@@ -6,6 +6,7 @@ function Footer() {
       <h2 className="text-center font-medium">
         Designed and Developed by{" "}
         <span className="text-yellow-700">Shubham Kumar Anand</span> &copy;
+        {new Date().getFullYear()}
       </h2>
     </div>
   );
